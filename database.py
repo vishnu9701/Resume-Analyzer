@@ -4,10 +4,9 @@ import pymysql
 ####### Sql connector ######
 
 def ConnectDataBase():
-    connection = pymysql.connect.connect(**st.secrets["db_credentials"])
-
-    #connection = pymysql.connect(host="localhost",user="root",password="vedu",db='cv')
+    connection = pymysql.connect(**st.secrets["db_credentials"])
     cursor = connection.cursor()
+    #connection = pymysql.connect(host="localhost",user="root",password="vedu",db='cv')
     return connection, cursor
 
 
