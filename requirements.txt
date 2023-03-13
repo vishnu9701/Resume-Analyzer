@@ -1,0 +1,13 @@
+nltk
+pdfminer3
+scikit_learn
+pyresparser
+streamlit
+pandas
+plotly
+pymysql
+streamlit-tags
+Pillow
+streamlit_option_menu
+resume-parser
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.1/en_core_web_sm-2.3.1.tar.gz
